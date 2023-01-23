@@ -4,6 +4,7 @@ LICENSE = "CLOSED"
 inherit packagegroup
 
 RDEPENDS:${PN} = "\
+    can-utils \
     libopencv-core-dev \
     python3-core \
     python3-dev \
